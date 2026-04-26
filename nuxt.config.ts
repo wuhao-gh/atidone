@@ -14,8 +14,13 @@ export default defineNuxtConfig({
   future: { compatibilityVersion: 4 },
   compatibilityDate: '2025-08-07',
   hub: {
-    db: 'sqlite'
+    db: {
+      dialect: 'sqlite',
+      driver: 'd1',
+      connection: { databaseId: 'atidone' }
+    },
   },
+  
   // Development config
   eslint: {
     config: {
