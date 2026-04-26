@@ -1,0 +1,18 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "atidone",
+  "vars": {
+    "NUXT_OAUTH_GITHUB_CLIENT_ID": "Ov23liJ1xbpnmJoylzLG",
+    "NUXT_OAUTH_GITHUB_CLIENT_SECRET": "c8873ec49eccde26730d20557fd9a36b84d83b41",
+    "NUXT_SESSION_PASSWORD": "just_my_atione_application_pass"
+  },
+  "observability": {
+    "logs": {
+      "enabled": true,
+      "invocation_logs": true
+    },
+    "traces": {
+      "enabled": true
+    }
+  }
+}
